@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import {Button} from 'antd';
 
 const App = () => {
   return (
-    <idv>
+    <div className="container">
       <span>Hello React</span>
-    </idv>
+      <Button type="primary">Click</Button>
+    </div>
   )
 }
 

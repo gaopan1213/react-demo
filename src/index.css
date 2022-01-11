@@ -1,0 +1,8 @@
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  background: url('../public/images/img.png') no-repeat 0 0;
+}
